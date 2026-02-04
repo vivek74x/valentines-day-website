@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-hearts" aria-hidden="true" id="bgHearts"></div>
+
+    <main class="page" id="page">
+      <section class="section hero" id="intro" aria-label="Intro">
+        <div class="hero__inner">
+          <h1 class="title title--loop">
+            <span class="title__main">Heyyy Arti!!! 🕊️ My Chasni ❣️<span class="title__accent">❤</span></span>
+            <span class="title__destiny">you can’t escape from destiny</span>
+            <span class="title__secret">Here's a secret note for you</span>
+          </h1>
+          <p class="subtitle">Click the envelope to open it.</p>
+
+          <button class="envelope" id="envelopeBtn" type="button" aria-label="Open secret note">
+            <span class="envelope__shadow" aria-hidden="true"></span>
+            <span class="envelope__body" aria-hidden="true">
+              <span class="envelope__flap"></span>
+              <span class="envelope__seal">❤</span>
+            </span>
+          </button>
+
+          <div class="hero__hint">Scroll for more</div>
+        </div>
+      </section>
+
+      <section class="section" id="love-notes" aria-label="Love notes">
+        <div class="section__head">
+          <h2 class="section__title">Love Notes <span class="section__emoji">�</span></h2>
+          <p class="section__desc">Longer words, the kind that stay.</p>
+        </div>
+        <div class="notes" id="loveNotes"></div>
+      </section>
+
+      <section class="section" id="timeline" aria-label="Relationship timeline">
+        <div class="section__head">
+          <h2 class="section__title">Relationship Timeline <span class="section__emoji">�</span></h2>
+          <p class="section__desc">Click a date to relive the moment.</p>
+        </div>
+
+        <div class="timeline" id="timelineList"></div>
+      </section>
+
+      <section class="section" id="valentine" aria-label="Valentine special">
+        <div class="section__head">
+          <h2 class="section__title">Valentine’s Special <span class="section__emoji">�</span></h2>
+          <p class="section__desc" id="valentineText"></p>
+        </div>
+      </section>
+
+      <section class="section" id="gallery-2" aria-label="More of us">
+        <div class="section__head">
+          <h2 class="section__title">More of us <span class="section__emoji">🌙</span></h2>
+          <p class="section__desc">Soft moments. Loud laughs. Everything.</p>
+        </div>
+        <div class="gallery" id="gallery2"></div>
+      </section>
+
+      <section class="section" id="memories" aria-label="Favorite memories">
+        <div class="section__head">
+          <h2 class="section__title">Our Favorite Memories <span class="section__emoji">📸</span></h2>
+          <p class="section__desc">Click to reveal each memory</p>
+        </div>
+
+        <div class="grid" id="memoriesGrid" aria-label="Memory tiles"></div>
+      </section>
+
+      <section class="section" id="things" aria-label="Things I love">
+        <div class="section__head">
+          <h2 class="section__title">Things I Love About You <span class="section__emoji">☁</span></h2>
+          <p class="section__desc">
+            From miles away, you’re still my favorite person. Distance is just a number, but us? We’re infinite.
+          </p>
+        </div>
+
+        <div class="love-grid" id="loveGrid" aria-label="Love notes"></div>
+      </section>
+
+      <section class="section" id="end" aria-label="Closing">
+        <div class="section__head">
+          <h2 class="section__title">Infinity &amp; Endlessly <span class="section__emoji">∞</span></h2>
+          <p class="section__desc">I love you. Always.</p>
+        </div>
+
+        <footer class="footer">
+          <div class="footer__inner">
+            <div class="footer__line">Made with love.</div>
+            <div class="footer__line">Edit the text in <span class="code">script.js</span> to personalize.</div>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <div class="modal" id="dialogModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Dialog">
+      <div class="modal__backdrop" data-close="true"></div>
+      <div class="modal__panel" role="document">
+        <div class="modal__top">
+          <div class="modal__title" id="dialogTitle"></div>
+          <button class="icon-btn" type="button" data-close="true" aria-label="Close">✕</button>
+        </div>
+        <div class="note" id="dialogBody"></div>
+        <div class="modal__actions">
+          <button class="btn" type="button" data-close="true">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
