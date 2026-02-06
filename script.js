@@ -1,7 +1,7 @@
 const DATA = {
-  note: `Hey love,\n\nI made this little page just to remind you of one thing:\nI’m so, so grateful you’re in my life.\n\nI love you today, tomorrow, and on all the ordinary days in between.\n\nYours,\n— Me`,
+  note: `Hey love,\n\nI made this little page just to remind you of one thing:\nI’m so, so grateful you’re in my life.\n\nI love you today, tomorrow, and on all the ordinary days in between.\n\nYours & Only yours,\n— Gulab Jamun 😊`,
   valentineSpecial:
-    "Tonight, the world can be loud — but with you, everything becomes soft. This is my little way of holding your hand, even from far away.",
+    "I don’t need a specific date to celebrate us. With you, every day feels like Valentine’s Day. I love you endlessly, and I’m falling deeper in love with you every second that goes by.💖",
   loveNotes: [
     {
       title: "For the girl I keep choosing",
@@ -9,7 +9,7 @@ const DATA = {
     },
     {
       title: "When I think of home",
-      body: "Home isn’t a place anymore. It’s your name on my screen. It’s your laugh. It’s the way my chest feels lighter when you say you’re okay.\n\nIf love has a language, you are the only sentence I never get tired of reading.",
+      body: "Home isn’t a place anymore. It’s your name on my screen. It’s your laugh. It’s the way my heart feels lighter when you say you’re okay.\n\nIf love has a language, you are the only sentence I never get tired of reading.",
       images: [
         { src: "IMG_5943.PNG", alt: "When I think of home" },
         { src: "wall.PNG", alt: "Another memory" }
@@ -61,25 +61,25 @@ const DATA = {
       date: "25 November 2025",
       title: "The First Spark",
       message:
-        "It started when you followed me on Instagram and lit up my notifications by liking my posts. I decided to text you, but it was late, and you had already drifted off to sleep. When I woke up to your reply—a sweet excuse that you had fallen asleep—that was the moment I began to dive into you. From that morning excuse to this very moment, I have been falling deeply and endlessly in love with you.",
+        "All it started with a follow request on Instagram and you got my attention by liking my posts. I decided to text you, but it was late and you’d already fallen asleep, therefore you didn’t reply. When I woke up to your reply—a sweet excuse about dozing off.. that was the moment I started falling for you. I felt something shift in me then, and honestly, I’ve been falling deeper in love with you ever since.",
     },
     {
       date: "27 November 2025",
       title: "The First Meeting",
       message:
-        "We decided to meet the day before, and when I finally saw you after class, words completely failed me. I was a little nervous, but mostly, I was overwhelmed with happiness just seeing you standing there. That walk we took to Oxygen Park remains one of my fondest memories.",
+        "We planned this the day before, and after class, it finally happened. When I first saw you, I honestly had no words. I was a little nervous, but mostly just so happy to be standing there with you. Then we went to Oxygen Park, and that day is a memory I’ll keep forever.",
     },
     {
       date: "7 December 2025",
       title: "The First Date",
       message:
-        "Spending time together at Freshers wasn't enough; we needed a world of our own. So we escaped to Latratu Dam. I will never forget that day—the day we shared our first kiss. I felt butterflies storming in my stomach, and the entire world stood still. It was truly priceless.",
+        "Spending time together at Freshers just wasn't enough, so we decided to go for your first date to Latratu Dam. I’ll never forget that day. It’s where I felt butterflies going crazy in my stomach. That entire moment was just... priceless.",
     },
     {
       date: "Infinity & Endlessly",
       title: "My Promise",
       message:
-        "Since the day I knew you, my love has grown day by day, endlessly. I love you so much, my Chasni. I cherish every moment we share—from our adventures in Broken Woods to Getalsud Dam (where we made our first reel; you dancing beautifully while I stood frozen in awe), and our recent bike tour to Netarhat. I am with you through every up and down. We have a whole life ahead to grow our love and explore the world together. I will never leave you, and I will love you infinitely, always.",
+        "From the day I met you, my love just keeps growing. I love you so much, my Chasni. I love every moment with you... whether it was Broken Woods, or Getalsud Dam (where we made our first reel and you danced while I just stood there!), or our recent bike trip to Netarhat. I’m with you through all the ups and downs. We have a whole life to grow and explore together. I’m never leaving, and I’ll love you infinitely, always. And our fruitfull journey and this timeline will continue for ever",
     },
   ],
 };
