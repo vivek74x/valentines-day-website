@@ -328,7 +328,7 @@ function spawnHearts() {
   const root = document.getElementById("bgHearts");
   if (!root) return;
 
-  const emojis = ["❤", "💗", "💖", "💘", "💕"];
+  const emojis = ["❤", "💗", "💖", "💘", "💕", "💝", "💞", "💓", "🌹", "🌸", "🦋", "✨", "💐", "🌺", "🌷"];
   const make = () => {
     const heart = document.createElement("div");
     heart.className = "heart";
